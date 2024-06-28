@@ -1,0 +1,5 @@
+create database Quiz;
+use Quiz;
+create table signup(user varchar(20), name varchar(20), password varchar(20), security varchar(20), answer varchar(20));
+desc signup;
+select * from signup;
